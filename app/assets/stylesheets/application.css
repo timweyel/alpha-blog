@@ -1,4 +1,12 @@
-@import 'bootstrap';
+/* ...
+*= require_self
+*= require_tree . 
+*/
+
+
+@import "bootstrap";
+
+/* @import 'bootstrap/dist/css/bootstrap'; */
 
 .navbar {
   background-color: black !important;
@@ -22,9 +30,8 @@
 }
 
 .jumbotron {
-  background-image: asset-url('jumbo-copy.jpg');
+  background-image: image-url('../images/jumbo-copy.jpg');
   background-position: center center;
-
   background-repeat: no-repeat;
   background-size: cover;
   height: 425px;
